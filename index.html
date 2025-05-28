@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank for using Vxeze Hub</title>
+</head>
+<body>
+    <div class="troi">
+        <h1 id="gg">Key: not update</h1>
+    </div>
+    <style>
+        *,body {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("./gg.png");
+            background-size: cover;    
+            background-position: center;
+            background-repeat: no-repeat; 
+            margin: 0;   
+            height: 100vh;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .troi {
+            background-color: black;
+            padding: 5vh;
+            opacity: 0.8;
+            border-radius: 1vh;
+        }
+        .troi > h1 {
+            color: white;
+            opacity: 1;
+            font-size: 2vh;
+        }
+    </style>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const h1 = document.getElementById("gg")
+        h1.innerHTML = "Key: " + params.get("key");
+    </script>
+</body>
+</html>
