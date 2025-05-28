@@ -53,3 +53,5 @@ lib:Start({
 
 - This script is designed for exploit environments such as KRNL, Synapse X, etc.
 [Click here to get example](https://github.com/Iamkhnah/authentication/blob/main/main/example.lua)
+
+![Ảnh demo](example.png)
