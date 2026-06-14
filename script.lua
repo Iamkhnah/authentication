@@ -185,5 +185,5 @@ spawn(function ()
 end)
 
 queue_on_teleport([==[
-loadstring(game:HttpGet("http://127.0.0.1:5000/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Iamkhnah/authentication/refs/heads/main/script.lua"))()
 ]==])
